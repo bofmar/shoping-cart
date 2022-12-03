@@ -1,10 +1,10 @@
 import React from "react";
-import ItemCard from './ItemCard';
+import { Outlet } from 'react-router-dom';
 
-export default function Shop({ guitars, amps, pedals, accessories }) {
+export default function Shop() {
   return (
     <div className='product-area'>
-      {guitars.map(g => <ItemCard key={g.id} {...g} />)}
+      <Outlet />
     </div>
   );
 }
