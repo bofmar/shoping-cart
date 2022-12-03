@@ -2,7 +2,7 @@ import testImage from '../images/test-image.jpeg';
 
 const testItem = {
   id: 1234,
-  name: 'Guitar',
+  name: 'test guitar',
   price: 200,
   brand: 'testBrand',
   deescription: 'description',
