@@ -1,8 +1,6 @@
-import { nanoid } from 'nanoid'
-
 export default class Item {
-  constructor(name, price, brand, description, image) {
-    this.id = nanoid();
+  constructor(id, name, price, brand, description, image) {
+    this.id = id;
     this.name = name;
     this.price = price;
     this.brand = brand;

@@ -14,7 +14,7 @@ const description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ae
 
 const items = {
   guitars: [
-    new Item('test guitar', 330.50, 'fender', description, testImage),
+    new Item('1', 'test guitar', 330.50, 'fender', description, testImage),
   ],
   amps: [
 
