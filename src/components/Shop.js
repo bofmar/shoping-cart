@@ -1,7 +1,10 @@
 import React from "react";
+import ItemCard from './ItemCard';
 
-export default function Shop() {
+export default function Shop({ guitars, amps, pedals, accessories }) {
   return (
-    <h1>Shop page</h1>
+    <div className='product-area'>
+      {guitars.map(g => <ItemCard key={g.id} {...g} />)}
+    </div>
   );
 }
