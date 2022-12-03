@@ -17,6 +17,10 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='shop' element={<Shop />}>
           <Route index element={<Items itemsList={items.guitars} />} />
+          <Route path='guitars' element={<Items itemsList={items.guitars} />} />
+          <Route path='amps' element={<Items itemsList={items.amps} />} />
+          <Route path='pedals' element={<Items itemsList={items.pedals} />} />
+          <Route path='accessories' element={<Items itemsList={items.accessories} />} />
         </Route>
         <Route path='*' element={<NoRoute />} />
       </Routes>
