@@ -11,7 +11,8 @@ const testItem = {
 
 const testItems = {
   guitars: [
-    testItem
+    testItem,
+    { id: 1245454, name: 'another guitar', price: 350, brand: 'testBrand', description: 'description', image: testImage }
   ],
   amps: [
 
