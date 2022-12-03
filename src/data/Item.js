@@ -5,7 +5,6 @@ export default class Item {
     this.id = nanoid();
     this.name = name;
     this.price = price;
-    this.category = category;
     this.brand = brand;
     this.description = description;
     this.image = image;
