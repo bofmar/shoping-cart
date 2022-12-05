@@ -1,12 +1,10 @@
 import React, { useContext } from "react";
 import { useParams } from 'react-router-dom';
 import { ItemsContext } from '../App';
-import { CartContext } from '../App';
 
-export default function ProductPage() {
+export default function ProductPage({ addToCart }) {
   const { itemId, type } = useParams();
   const items = useContext(ItemsContext);
-  const cart = useContext(CartContext);
 
   const findItem = () => {
     return items[type].filter(item => item.id === itemId);
@@ -17,7 +15,7 @@ export default function ProductPage() {
   return (
     <>
       <img src={item.image} alt={item.name} />
-      <button onClick={() => cart.addToCart(item)}>Add to cart</button>
+      <button onClick={() => addToCart(item)}>Add to cart</button>
     </>
   );
 }
