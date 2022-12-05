@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useParams } from 'react-router-dom';
 import { ItemsContext } from '../App';
+import { nanoid } from 'nanoid';
 
 export default function ProductPage({ addToCart }) {
   const { itemId, type } = useParams();
@@ -15,7 +16,7 @@ export default function ProductPage({ addToCart }) {
   return (
     <>
       <img src={item.image} alt={item.name} />
-      <button onClick={() => addToCart(item)}>Add to cart</button>
+      <button onClick={() => addToCart({ ...item, id: nanoid() })}>Add to cart</button>
     </>
   );
 }
