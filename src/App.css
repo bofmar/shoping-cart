@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --dark-red: #c40909;
+  --off-white: #ccc;
+  --off-black: #222;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+.relative {
+  position: relative;
+}
+
+/* * * * * * *
+    Header
+* * * * * * * */
+header {
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--dark-red);
+  color: var(--off-black);
+}
+
+.logo, .header-nav {
+  height: 100%;
+}
+
+.logo, 
+.header-nav > ul{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo > img {
+  height: 50%;
+}
+
+
+.header-nav > ul{
+  list-style: none;
+}
+
+.header-nav a {
+  color: var(--off-black);
+  font-size: 1.2rem;
+}
+
+.cart-icon {
+  height: 33px;
+}
+
+.header-nav span {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  z-index: 1;
+  background-color: var(--dark-red);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--off-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

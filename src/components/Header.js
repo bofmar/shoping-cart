@@ -10,12 +10,12 @@ export default function Header({ cart }) {
         <img src={logo} />
         <h1 className='company-name'>Get Loud!</h1>
       </div>
-      <nav>
+      <nav className='header-nav'>
         <ul>
           <li><NavLink to='/'>Home</NavLink></li>
           <li><NavLink to='shop'>Shop</NavLink></li>
           <li><NavLink to='about'>About</NavLink></li>
-          <li><NavLink to='checkout'><img src={cartIcon} /><span className='total items'>{cart.length}</span></NavLink></li>
+          <li className='relative'><NavLink to='checkout'><img className='cart-icon' src={cartIcon} /><span className='total items'>{cart.length}</span></NavLink></li>
         </ul>
       </nav>
     </header>
