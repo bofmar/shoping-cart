@@ -10,7 +10,7 @@ import banner4 from '../images/banner4.jpeg';
 export default function HomeCarousel() {
   const navigate = useNavigate();
   return (
-    <Carousel autoPlay={false} infiniteLoop={true}>
+    <Carousel autoPlay={true} infiniteLoop={true}>
       <div className='carousel-wrapper relative'>
         <img src={banner1} />
         <div className='legend'>
