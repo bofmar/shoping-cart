@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <ItemsContext.Provider value={items}>
-        <Header />
+        <Header cart={cart} />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
