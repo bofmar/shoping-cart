@@ -31,6 +31,10 @@ button{
   font-weight: bold;
 }
 
+.red-text {
+  color: var(--dark-red);
+}
+
 /* * * * * * *
     Header
 * * * * * * * */
@@ -89,7 +93,7 @@ header {
 }
 
 /* * * * * * *
-    Home
+  Home - Carousel
 * * * * * * * */
 .home-page .carousel {
   max-height: 80vh;
@@ -136,11 +140,12 @@ header {
   justify-content: center;
 }
 
-.legend-buttons button{
+.legend-buttons button,
+.welcome-section-buttons button{
   margin-top: 10px;
   font-size: 1.3rem;
   color: var(--off-white);
-  width: 12rem;
+  min-width: 12rem;
   padding: 0.7rem;
   text-align: center;
   border-radius: 12px;
@@ -154,6 +159,46 @@ header {
   border: 2px solid var(--off-white);
 }
 
+.transparent-button-red {
+  color: var(--dark-red) !important;
+  border: 2px solid var(--off-black);
+}
+
 .thumbs {
   display: none;
+}
+
+
+/* * * * * * *
+  Home - Welcome
+* * * * * * * */
+
+.welcome-section {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 1.2rem;
+  margin: -30px;
+}
+
+.welcome-section > img {
+  height: 70%;
+}
+
+.welcome-section p {
+  max-width: 60ch;
+}
+
+.welcome-section > div {
+  height: 70%;
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.welcome-section-buttons {
+  display: flex;
+  gap: 20px;
 }
