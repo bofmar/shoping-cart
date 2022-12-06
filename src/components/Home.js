@@ -3,6 +3,7 @@ import HomeCarousel from './HomeCarousel';
 import WelcomeSection from './WelcomeSection';
 import HomeCardSection from './HomeCardSection';
 import ProSection from './ProSection';
+import CallToAction from './CallToAction';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <WelcomeSection />
       <HomeCardSection />
       <ProSection />
+      <CallToAction />
     </div>
   );
 }
