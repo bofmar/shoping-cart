@@ -6,9 +6,9 @@ export default function Card({ image, title, body }) {
   return (
     <div className='home-card'>
       <img src={image} />
-      <h2>{title.toUpperCase()}</h2>
+      <h2 className='red-text'>{title.toUpperCase()}</h2>
       <p>{body}</p>
-      <button className='red-button' onClick={() => navigate('/about')}>Learn More</button>
+      <button className='red-button card-button' onClick={() => navigate('/about')}>Learn More</button>
     </div>
   );
 }
