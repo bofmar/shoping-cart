@@ -4,6 +4,7 @@ import WelcomeSection from './WelcomeSection';
 import HomeCardSection from './HomeCardSection';
 import ProSection from './ProSection';
 import CallToAction from './CallToAction';
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HomeCardSection />
       <ProSection />
       <CallToAction />
+      <Footer />
     </div>
   );
 }
