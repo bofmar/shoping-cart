@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import logo from '../images/logo.png';
 import facebook from '../images/facebook-svgrepo-com.svg';
 import linkedIn from '../images/linkedin-svgrepo-com.svg';
-import twitter from '../images/twitter-svgrepo-com.svg';
+import twitter from '../images/twitter-square-svgrepo-com.svg';
 
 export default function Footer() {
   const [name, setName] = useState('');
@@ -19,8 +18,7 @@ export default function Footer() {
   return (
     <footer>
       <div className='footer-logo'>
-        <image src={logo} />
-        <p>Get Loud!</p>
+        <h1>Get Loud!</h1>
       </div>
       <div className='contact'>
         <h4>Get Loud! Guitar Shop, Inc.</h4>
@@ -38,7 +36,7 @@ export default function Footer() {
         <h2>Save 10% on your next purchase</h2>
         <input type='text' placeholder='Full name' value={name} onChange={(e) => handleName(e)} />
         <input type='email' placeholder='Email address' value={email} onChange={(e) => handleEmail(e)} />
-        <button className='red-button form-button' />
+        <button className='red-button form-button' >SIGN ME UP</button>
       </from>
     </footer>
   );

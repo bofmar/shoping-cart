@@ -143,7 +143,8 @@ header {
 .legend-buttons button,
 .welcome-section-buttons button,
 .card-button,
-.inverse-button{
+.inverse-button,
+.form-button{
   margin-top: 10px;
   font-size: 1.3rem;
   color: var(--off-white);
@@ -323,4 +324,36 @@ header {
 .inverse-button {
   background-color: var(--off-white);
   color: var(--dark-red);
+}
+
+/* * * * * * *
+  Home - Footer 
+* * * * * * * */
+
+footer {
+  height: 60vh;
+  background-color: var(--off-black);
+  color: var(--off-white);
+  font-size: 1.2 rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.media {
+  display: flex;
+}
+
+.media-logo {
+  width: 2vw;
+  filter: invert(97%) sepia(0%) saturate(828%) hue-rotate(246deg) brightness(115%) contrast(100%);
+  cursor: pointer;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
 }
