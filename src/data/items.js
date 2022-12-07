@@ -24,6 +24,17 @@ import fender57 from '../images/products/amps/fender-57.jpg';
 import fenderHotRod from '../images/products/amps/fender-hot-rod.jpg';
 import laneyLX15 from '../images/products/amps/laney-lx15.jpg';
 import orange from '../images/products/amps/orange.jpg';
+// Pedals
+import blackstarFS12 from '../images/products/pedals/blackstar-fs12.jpg';
+import bossGT1000 from '../images/products/pedals/boss-gt1000.jpg';
+import electroharmonixCanyon from '../images/products/pedals/electro-harmonix-canyon.jpg';
+import englChorus from '../images/products/pedals/engl-chorus.jpg';
+import headrushLooperboard from '../images/products/pedals/headrush-looperboard.jpg';
+import line6Helix from '../images/products/pedals/line6-helix.jpg';
+import line6M13 from '../images/products/pedals/line6-m13.jpg';
+import mxrMR292 from '../images/products/pedals/mxr-mr292.jpg';
+import proeflGF141 from '../images/products/pedals/proefl-gf14l.jpg';
+import zoomAC2 from '../images/products/pedals/zoom-ac-2.jpg';
 // END LONG
 
 const description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis quam id diam finibus luctus. Curabitur hendrerit eget libero id placerat. In id vestibulum turpis. Mauris scelerisque sagittis felis, faucibus semper justo lobortis ut. Morbi tempus neque id mi elementum, ut mollis felis vestibulum. Duis pharetra sapien lacus, et ultrices dolor tempus sit amet. Donec quis hendrerit erat. Vivamus in sem lorem. Curabitur non est vitae justo condimentum aliquam. Proin suscipit, quam eu condimentum suscipit, tortor felis tristique enim, at consequat lorem ex et ipsum. Donec eget gravida lacus, sit amet semper diam. Phasellus ipsum lacus, aliquam ac orci non, pellentesque dignissim dolor. ';
@@ -62,7 +73,16 @@ const items = {
     new Item('21', 'ORANGE Mini Crush Electric Guitar Amplifier', 69, 'orange', description, orange)
   ],
   pedals: [
-
+    new Item('22', 'BLACKSTAR FS-12 Footswitch', 79, 'blackstar', description, blackstarFS12),
+    new Item('23', 'BOSS GT-1000 Multi Effect with Pedal For Electric Guitar', 1_159, 'boss', description, bossGT1000),
+    new Item('24', 'ELECTRO HARMONIX Canyon Effects Pedal Delay & Looper', 169, 'electro harmonix', description, electroharmonixCanyon),
+    new Item('25', 'ENGL Chorus Pedal', 127, 'engl', description, englChorus),
+    new Item('26', 'HEADRUSH Looperboard for Electric Guitar', 999, 'headrush', description, headrushLooperboard),
+    new Item('27', 'LINE 6 Helix LT Guitar Multieffect ', 1_145, 'line 6', description, line6Helix),
+    new Item('28', 'LINE 6 M13 Stomp Box Modeler', 439, 'line 6', description, line6M13),
+    new Item('29', 'MXR M292 Carbon Copy Deluxe Analog Delay', 266, 'mxr', description, mxrMR292),
+    new Item('30', 'PROEL GF-14L Volume/Expression Stereo Pedal', 40, 'proel', description, proeflGF141),
+    new Item('31', 'ZOOM AC-2 Acoustic Guitar Effects Pedal', 218, 'zoom', description, zoomAC2)
   ],
   accessories: [
 
