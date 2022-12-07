@@ -95,7 +95,7 @@ const items = {
     new Item('33', 'FENDER Original Tuner DBL', 14.40, 'fender', description, fenderTuner),
     new Item('34', 'GIBSON ASAC-TAN MONTANA STRP TAN Leather Strap', 68, 'gibson', description, gibsonASAC),
     new Item('35', 'Gibson Gear ASCL-BRN The Classic Brown Leather with Suede Back', 68, 'gibson', description, gibsonASCL),
-    new Item('36', 'Gibson ASGG-600 2 inch Woven Guitar Strap Black-Red', 18, 90, 'gibson', description, gibsonASGG)
+    new Item('36', 'Gibson ASGG-600 2 inch Woven Guitar Strap Black-Red', 18.90, 'gibson', description, gibsonASGG)
   ]
 }
 
