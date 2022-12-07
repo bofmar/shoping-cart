@@ -35,6 +35,12 @@ import line6M13 from '../images/products/pedals/line6-m13.jpg';
 import mxrMR292 from '../images/products/pedals/mxr-mr292.jpg';
 import proeflGF141 from '../images/products/pedals/proefl-gf14l.jpg';
 import zoomAC2 from '../images/products/pedals/zoom-ac-2.jpg';
+// Accessories
+import fenderStrings from '../images/products/accessories/fender-strings.jpg';
+import fenderTuner from '../images/products/accessories/fender-tuner.jpg';
+import gibsonASAC from '../images/products/accessories/gibson-asac.jpg';
+import gibsonASCL from '../images/products/accessories/gibson-ascl.jpg';
+import gibsonASGG from '../images/products/accessories/gibson-asgg.jpg';
 // END LONG
 
 const description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis quam id diam finibus luctus. Curabitur hendrerit eget libero id placerat. In id vestibulum turpis. Mauris scelerisque sagittis felis, faucibus semper justo lobortis ut. Morbi tempus neque id mi elementum, ut mollis felis vestibulum. Duis pharetra sapien lacus, et ultrices dolor tempus sit amet. Donec quis hendrerit erat. Vivamus in sem lorem. Curabitur non est vitae justo condimentum aliquam. Proin suscipit, quam eu condimentum suscipit, tortor felis tristique enim, at consequat lorem ex et ipsum. Donec eget gravida lacus, sit amet semper diam. Phasellus ipsum lacus, aliquam ac orci non, pellentesque dignissim dolor. ';
@@ -85,7 +91,11 @@ const items = {
     new Item('31', 'ZOOM AC-2 Acoustic Guitar Effects Pedal', 218, 'zoom', description, zoomAC2)
   ],
   accessories: [
-
+    new Item('32', 'FENDER 150L El.Guitar Strings', 6.70, 'fender', description, fenderStrings),
+    new Item('33', 'FENDER Original Tuner DBL', 14.40, 'fender', description, fenderTuner),
+    new Item('34', 'GIBSON ASAC-TAN MONTANA STRP TAN Leather Strap', 68, 'gibson', description, gibsonASAC),
+    new Item('35', 'Gibson Gear ASCL-BRN The Classic Brown Leather with Suede Back', 68, 'gibson', description, gibsonASCL),
+    new Item('36', 'Gibson ASGG-600 2 inch Woven Guitar Strap Black-Red', 18, 90, 'gibson', description, gibsonASGG)
   ]
 }
 
