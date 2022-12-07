@@ -17,6 +17,13 @@ import jacksonJS32 from '../images/products/guitars/jackson-js32.jpg';
 import kramerBaretta from '../images/products/guitars/kramer-baretta.jpg';
 import kramerCustom from '../images/products/guitars/kramer-custom.jpg';
 import kramerFocus from '../images/products/guitars/kramer-focus.jpg';
+// Amplifiers
+import blackstar from '../images/products/amps/blackstar.jpg';
+import blackstarFly from '../images/products/amps/blackstar-fly.jpg';
+import fender57 from '../images/products/amps/fender-57.jpg';
+import fenderHotRod from '../images/products/amps/fender-hot-rod.jpg';
+import laneyLX15 from '../images/products/amps/laney-lx15.jpg';
+import orange from '../images/products/amps/orange.jpg';
 // END LONG
 
 const description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis quam id diam finibus luctus. Curabitur hendrerit eget libero id placerat. In id vestibulum turpis. Mauris scelerisque sagittis felis, faucibus semper justo lobortis ut. Morbi tempus neque id mi elementum, ut mollis felis vestibulum. Duis pharetra sapien lacus, et ultrices dolor tempus sit amet. Donec quis hendrerit erat. Vivamus in sem lorem. Curabitur non est vitae justo condimentum aliquam. Proin suscipit, quam eu condimentum suscipit, tortor felis tristique enim, at consequat lorem ex et ipsum. Donec eget gravida lacus, sit amet semper diam. Phasellus ipsum lacus, aliquam ac orci non, pellentesque dignissim dolor. ';
@@ -43,11 +50,16 @@ const items = {
     new Item('11', 'JACKSON Misha Mansoor Juggernaut HT7P Caramelized Maple Black Burst Burl 7string Εlectric Guitar', 979, 'jackson', description, jacksonMisha),
     new Item('12', 'JACKSON JS32 Dinky Arch Top DKA-M SW Electric Guitar', 322, 'jackson', description, jacksonJS32),
     new Item('13', 'KRAMER Baretta Special Purple Electric Guitar', 199, 'kramer', description, kramerBaretta),
-    new Item('14', 'KRAMER Custom Graphics "Hot Rod" Baretta Blue Sparkle w/Flames Electric Guitar', 1_019, description, kramerCustom),
-    new Item('15', 'KRAMER Focus VT211S Ruby Red Electric Guitar', 129, description, kramerFocus)
+    new Item('14', 'KRAMER Custom Graphics "Hot Rod" Baretta Blue Sparkle w/Flames Electric Guitar', 1_019, 'kramer', description, kramerCustom),
+    new Item('15', 'KRAMER Focus VT211S Ruby Red Electric Guitar', 129, 'kramer', description, kramerFocus)
   ],
   amps: [
-
+    new Item('16', 'BLACKSTAR HT Club 40 MKII Electric Guitar Amplifier', 865, 'blackstar', description, blackstar),
+    new Item('17', 'BLACKSTAR FLY 3 Vintage Electric Guitar Amplifier', 77, 'blackstar', description, blackstarFly),
+    new Item('18', 'FENDER 57 Custom Champ Electric Guitar Amplifier', 1_444, 'fender', description, fender57),
+    new Item('19', 'LANEY LX-15 RED Electric Guitar Amplifier', 89, 'laney', description, laneyLX15),
+    new Item('20', 'FENDER Hot Rod Deluxe IV El.Guitar Amp', 1_079, 'fender', description, fenderHotRod),
+    new Item('21', 'ORANGE Mini Crush Electric Guitar Amplifier', 69, 'orange', description, orange)
   ],
   pedals: [
 
