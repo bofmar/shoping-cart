@@ -489,3 +489,51 @@ footer {
   font-weight: bold;
   color: var(--dark-red);
 }
+
+
+/* * * * * * *
+    Checkout 
+* * * * * * * */
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-item {
+  width: 40vw;
+  display: grid;
+  grid-template-areas: 
+    'img title title'
+    'img price price';
+  column-gap: 8px;
+  align-items: end;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
+.checkout-item > img {
+  grid-area: img;
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
+.checkout-item > h1 {
+  grid-area: title;
+  font-size: 1.1rem;
+}
+
+.checkout-item-controls {
+  grid-area: price;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout-item-controls > .red-button {
+  font-size: 1.1rem;
+  min-width: 80px;
+  height: 20px;
+}

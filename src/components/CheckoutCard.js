@@ -7,8 +7,10 @@ export default function CheckoutCard({ name, image, price, id, removeFromCart })
     <div className='checkout-item'>
       <img src={image} alt={name} />
       <h1>{name}</h1>
-      <p>{formatedPrice}</p>
-      <button onClick={() => removeFromCart(id)}>Remove</button>
+      <div className='checkout-item-controls'>
+        <p>{formatedPrice}</p>
+        <button className='red-button' onClick={() => removeFromCart(id)}>Remove</button>
+      </div>
     </div>
   );
 }
