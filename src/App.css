@@ -379,3 +379,66 @@ footer {
   flex-direction: column;
   gap: 30px;
 }
+
+.product-area {
+  grid-column: 2 / span 6;
+  display: grid;
+  grid-template-rows: 1fr 10vh;
+}
+
+.shoping-area {
+  display: grid;
+  grid-row: 1;
+  grid-auto-rows: 420px;
+  grid-template-columns: repeat(3, 33%);
+  align-items: center;
+  justify-items: center;
+}
+
+.placeholder {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  grid-row: 2;
+}
+
+/* * * * * * *
+  Shop - Cards 
+* * * * * * * */
+
+.card-wrapper {
+  height: 95%;
+  width: 40%;
+  display: grid;
+  grid-template-rows: 40% 1fr 1fr 1fr;
+  justify-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+  user-select: none;
+}
+
+.card-wrapper:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-wrapper > * {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.card-wrapper > img {
+  height: 100%;
+}
+
+.card-wrapper h2 {
+  font-size: 1rem;
+}
+
+.card-wrapper h1 {
+  font-size: 1.1rem;
+}
+
+.card-wrapper p {
+  align-self: end;
+}

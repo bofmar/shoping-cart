@@ -14,6 +14,7 @@ export default function Shop() {
       </nav>
       <div className='product-area'>
         <Outlet />
+        <div className='placeholder'></div>
       </div>
     </div>
   );
