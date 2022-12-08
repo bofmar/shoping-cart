@@ -433,3 +433,59 @@ footer {
 .card-wrapper p {
   align-self: end;
 }
+
+/* * * * * * *
+    Product 
+* * * * * * * */
+
+.product-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-wrapper {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-areas: 
+    'img title title'
+    'img logo logo'
+    'img desc desc'
+    'img desc desc'
+    'img purchase purchase';
+  column-gap: 30px;
+  align-items: end;
+}
+
+.product-image {
+  grid-area: img;
+}
+
+.product-wrapper > h1 {
+  grid-area: title;
+}
+
+.product-logo {
+  grid-area: logo;
+  height: 5vh;
+}
+
+.product-wrapper > p {
+  grid-area: desc;
+  align-self: center;
+}
+
+.product-page-button-section {
+  grid-area: purchase;
+  align-self: start;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product-page-button-section > p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--dark-red);
+}

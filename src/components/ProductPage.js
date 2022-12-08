@@ -16,13 +16,15 @@ export default function ProductPage({ addToCart }) {
 
   return (
     <div className='product-page'>
-      <img src={item.image} alt={item.name} />
-      <h1>{item.name}</h1>
-      <img src={require(`../images/company-logos/${item.brand}-logo.png`)} alt={item.brand} />
-      <p className='description'>{item.description}</p>
-      <div className='product-page-button-section'>
-        <p>{formatedPrice}</p>
-        <button onClick={() => addToCart({ ...item, id: nanoid() })}>Add to cart</button>
+      <div className='product-wrapper'>
+        <img src={item.image} alt={item.name} className='product-image' />
+        <h1>{item.name}</h1>
+        <img src={require(`../images/company-logos/${item.brand}-logo.png`)} alt={item.brand} className='product-logo' />
+        <p className='description'>{item.description}</p>
+        <div className='product-page-button-section'>
+          <p>{formatedPrice}</p>
+          <button onClick={() => addToCart({ ...item, id: nanoid() })} className='red-button'>Add to cart</button>
+        </div>
       </div>
     </div>
   );
