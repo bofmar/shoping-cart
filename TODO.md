@@ -6,4 +6,6 @@
 -- Style the about page
 -- Implement an end to end test with cypress
 
+-- Clean up, change title
+
 -- Final push
