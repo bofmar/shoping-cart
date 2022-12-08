@@ -20,8 +20,8 @@ function App() {
     setCart(prevCart => [...prevCart, item])
   }
 
-  function removeFromCart(item) {
-    setCart(prevCart => prevCart.filter(i => i.id !== item.id));
+  function removeFromCart(id) {
+    setCart(prevCart => prevCart.filter(i => i.id !== id));
   }
 
   return (
@@ -39,7 +39,7 @@ function App() {
             <Route path='accessories' element={<Items itemsList={items.accessories} type='accessories' />} />
           </Route>
           <Route path='shop/:type/:itemId' element={<ProductPage addToCart={addToCart} />} />
-          <Route path='checkout' element={<Checkout cart={cart} />} />
+          <Route path='checkout' element={<Checkout cart={cart} removeFromCart={removeFromCart} />} />
           <Route path='*' element={<NoRoute />} />
         </Routes>
       </ItemsContext.Provider>

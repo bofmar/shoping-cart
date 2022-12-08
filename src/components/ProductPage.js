@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { useParams } from 'react-router-dom';
 import { ItemsContext } from '../App';
 import { nanoid } from 'nanoid';
+import priceFormater from '../helpers/priceFormater';
 
 export default function ProductPage({ addToCart }) {
   const { itemId, type } = useParams();
@@ -12,7 +13,7 @@ export default function ProductPage({ addToCart }) {
   }
 
   const [item] = [...findItem()];
-  const formatedPrice = item.price.toLocaleString('en-IN', { style: 'currency', currency: 'EUR' });
+  const formatedPrice = priceFormater(item.price);
 
   return (
     <div className='product-page'>
