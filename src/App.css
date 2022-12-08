@@ -2,7 +2,7 @@
 
 :root {
   --dark-red: #c40909;
-  --off-white: #ccc;
+  --off-white: #eee;
   --off-black: #222;
 }
 
@@ -29,6 +29,13 @@ button{
   cursor: pointer;
   user-select: none;
   font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: var(--off-white);
+  min-width: 12rem;
+  padding: 0.7rem;
+  text-align: center;
+  border-radius: 12px;
 }
 
 .red-text {
@@ -138,20 +145,6 @@ header {
   display: flex;
   gap: 20px;
   justify-content: center;
-}
-
-.legend-buttons button,
-.welcome-section-buttons button,
-.card-button,
-.inverse-button,
-.form-button{
-  margin-top: 10px;
-  font-size: 1.3rem;
-  color: var(--off-white);
-  min-width: 12rem;
-  padding: 0.7rem;
-  text-align: center;
-  border-radius: 12px;
 }
 
 .red-button {
