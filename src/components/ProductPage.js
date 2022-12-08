@@ -16,6 +16,7 @@ export default function ProductPage({ addToCart }) {
   return (
     <>
       <img src={item.image} alt={item.name} />
+      <img src={require(`../images/company-logos/${item.brand}-logo.png`)} alt={item.brand} />
       <button onClick={() => addToCart({ ...item, id: nanoid() })}>Add to cart</button>
     </>
   );

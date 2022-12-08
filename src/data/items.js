@@ -81,11 +81,11 @@ const items = {
   pedals: [
     new Item('22', 'BLACKSTAR FS-12 Footswitch', 79, 'blackstar', description, blackstarFS12),
     new Item('23', 'BOSS GT-1000 Multi Effect with Pedal For Electric Guitar', 1_159, 'boss', description, bossGT1000),
-    new Item('24', 'ELECTRO HARMONIX Canyon Effects Pedal Delay & Looper', 169, 'electro harmonix', description, electroharmonixCanyon),
+    new Item('24', 'ELECTRO HARMONIX Canyon Effects Pedal Delay & Looper', 169, 'electroharmonix', description, electroharmonixCanyon),
     new Item('25', 'ENGL Chorus Pedal', 127, 'engl', description, englChorus),
     new Item('26', 'HEADRUSH Looperboard for Electric Guitar', 999, 'headrush', description, headrushLooperboard),
-    new Item('27', 'LINE 6 Helix LT Guitar Multieffect ', 1_145, 'line 6', description, line6Helix),
-    new Item('28', 'LINE 6 M13 Stomp Box Modeler', 439, 'line 6', description, line6M13),
+    new Item('27', 'LINE 6 Helix LT Guitar Multieffect ', 1_145, 'line6', description, line6Helix),
+    new Item('28', 'LINE 6 M13 Stomp Box Modeler', 439, 'line6', description, line6M13),
     new Item('29', 'MXR M292 Carbon Copy Deluxe Analog Delay', 266, 'mxr', description, mxrMR292),
     new Item('30', 'PROEL GF-14L Volume/Expression Stereo Pedal', 40, 'proel', description, proeflGF141),
     new Item('31', 'ZOOM AC-2 Acoustic Guitar Effects Pedal', 218, 'zoom', description, zoomAC2)
