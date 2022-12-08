@@ -382,8 +382,6 @@ footer {
 
 .product-area {
   grid-column: 2 / span 6;
-  display: grid;
-  grid-template-rows: 1fr 10vh;
 }
 
 .shoping-area {
@@ -393,13 +391,6 @@ footer {
   grid-template-columns: repeat(3, 33%);
   align-items: center;
   justify-items: center;
-}
-
-.placeholder {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  grid-row: 2;
 }
 
 /* * * * * * *
