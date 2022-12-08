@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
-export default function Shop({ name, price, image, id, type }) {
+export default function ItemCard({ name, price, image, id, type }) {
   const navigate = useNavigate();
 
   return (

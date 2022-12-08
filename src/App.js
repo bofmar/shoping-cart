@@ -32,11 +32,11 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='shop' element={<Shop />}>
-            <Route index element={<Items itemsList={items.guitars} />} />
-            <Route path='guitars' element={<Items itemsList={items.guitars} />} />
-            <Route path='amps' element={<Items itemsList={items.amps} />} />
-            <Route path='pedals' element={<Items itemsList={items.pedals} />} />
-            <Route path='accessories' element={<Items itemsList={items.accessories} />} />
+            <Route index element={<Items itemsList={items.guitars} type='guitars' />} />
+            <Route path='guitars' element={<Items itemsList={items.guitars} type='guitars' />} />
+            <Route path='amps' element={<Items itemsList={items.amps} type='amps' />} />
+            <Route path='pedals' element={<Items itemsList={items.pedals} type='pedals' />} />
+            <Route path='accessories' element={<Items itemsList={items.accessories} type='accessories' />} />
           </Route>
           <Route path='shop/:type/:itemId' element={<ProductPage addToCart={addToCart} />} />
           <Route path='checkout' element={<Checkout cart={cart} />} />
