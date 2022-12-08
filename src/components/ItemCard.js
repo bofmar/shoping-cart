@@ -1,14 +1,17 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
-export default function ItemCard({ name, price, image, id, type }) {
+export default function ItemCard({ name, price, image, id, type, brand }) {
   const navigate = useNavigate();
+
+  const formatedPrice = price.toLocaleString('en-IN', { style: 'currency', currency: 'EUR' });
 
   return (
     <div className='card-wrapper' onClick={() => navigate(`/shop/${type}/${id}`)}>
       <img src={image} alt={name} />
+      <h2>{brand.toUpperCase()}</h2>
       <h1>{name}</h1>
-      <h2>{price}</h2>
+      <p>{formatedPrice}</p>
     </div>
   );
 }
