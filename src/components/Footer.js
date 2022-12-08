@@ -31,13 +31,13 @@ export default function Footer() {
           <img className='media-logo' src={twitter} />
         </div>
       </div>
-      <from className='signup-form'>
+      <form className='signup-form'>
         <h3>Sign up for our newsletter and</h3>
         <h2>Save 10% on your next purchase</h2>
         <input type='text' placeholder='Full name' value={name} onChange={(e) => handleName(e)} />
         <input type='email' placeholder='Email address' value={email} onChange={(e) => handleEmail(e)} />
         <button className='red-button form-button' >SIGN ME UP</button>
-      </from>
+      </form>
     </footer>
   );
 }
