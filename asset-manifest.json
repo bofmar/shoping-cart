@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shoping-cart/static/css/main.65e7fc66.css",
-    "main.js": "/shoping-cart/static/js/main.960a55b5.js",
+    "main.js": "/shoping-cart/static/js/main.8d987921.js",
     "static/media/banner4.jpeg": "/shoping-cart/static/media/banner4.b3e493d8a7d05857ca1c.jpeg",
     "static/media/about2.jpeg": "/shoping-cart/static/media/about2.9ed3f7bb48daffda58fa.jpeg",
     "static/media/kramer-logo.png": "/shoping-cart/static/media/kramer-logo.80ee08a1b3c0bd6b4c0c.png",
@@ -72,10 +72,10 @@
     "index.html": "/shoping-cart/index.html",
     "static/media/facebook-svgrepo-com.svg": "/shoping-cart/static/media/facebook-svgrepo-com.449c56461b9d4b13be97776418c14eda.svg",
     "main.65e7fc66.css.map": "/shoping-cart/static/css/main.65e7fc66.css.map",
-    "main.960a55b5.js.map": "/shoping-cart/static/js/main.960a55b5.js.map"
+    "main.8d987921.js.map": "/shoping-cart/static/js/main.8d987921.js.map"
   },
   "entrypoints": [
     "static/css/main.65e7fc66.css",
-    "static/js/main.960a55b5.js"
+    "static/js/main.8d987921.js"
   ]
 }
