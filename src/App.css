@@ -558,6 +558,10 @@ footer {
   margin-top: 30px;
 }
 
+.about-page > section:last-child {
+  margin-bottom: 60px;
+}
+
 .about-page > section > h1 {
   text-align: center;
   color: var(--dark-red);
